@@ -1,0 +1,40 @@
+
+// 211124
+
+Intro to DP :-
+
+* def - A problem-solving technique for solving optimization problems efficiently.
+
+* It involves breaking down a large problem into smaller overlapping subproblems and solving each subproblem only once.
+* The results of subproblems are stored to avoid redundant computations and hence improve efficiency.
+
+
+* Key steps :-
+    > Understanding : 
+            - how the optimal soln can be obtained from the optimal solns of the subprobs. 
+            - id the subprobs and their rships to determine the problem's structure.
+    
+    > Define :
+            - Express optimal soln in terms of the subprobs. 
+            - Formulate a recursive relation that allows the solving of prob in top-down or bottom-up approach.
+
+    > Id the overlapping subproblems and choose the suitable technique of Memoization or Tabulation.
+            - Memoization : top-down approach -> Recursive => results are stored in a memoization table or cache.
+
+            - Tabulation : bottom-up approach -> Iteratively => filling of a table / array from smaller subproblems.
+
+    > Analyse the TC and SC (complexities).
+
+* Advs :
+    - Optimal Solutions.
+    - Efficiency. => eliminates redundant computations.
+    - Problem Simplification.
+    - Versitile => can be applied to a wide range of problems.
+
+* DisAdvs :
+    - May have high complexities for certain problems.
+    - Overlapping Subproblem Requirement.
+    - Problem Formulation & Recursive Relations.
+    - Memory Usage => in the case of Tabulation (bottom-up)
+
+
