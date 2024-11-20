@@ -1,0 +1,33 @@
+
+// 131124
+
+Stacks
+
+* LIFO.
+
+* Operations : Push, Pop, Peek, Size, isEmpty.
+
+* Advs : - easy implementation
+    - efficient memory usage.
+    - helpful in recursive logics.
+    
+* Disadvs : - limited access (only to top)
+    - No random access.
+    - No efficient search or sort.
+    - Limited size.
+
+* Implementation : Arrays, Linked List, STL Stack container (all ops O(1))
+
+
+// 141124
+
+Stack Implementations :-
+    - Evaluation of infix, postfix and prefix exprs.
+    - Undo / Redo Operations.
+    - Backtracking algos.
+    - Memory Mgmt.
+    - CPU Scheduling.
+    - Parsing algos.
+    - Browser History.
+    - Network Routing.
+    - Function Call stack in Programming Langs (for storing local vars and func_parameters).
