@@ -1,0 +1,56 @@
+
+// 121124
+
+HASHING :-
+
+* It is a technique used to store and retrieve data in a DS called Hash-table or Hash-map.
+* Involves mapping of data elements or Keys to a fixed-size array using a hash function.
+
+* Hash Function - it is a mathematical function which takes a key as input and computes a hash code, which is a unique numeric value.
+* The hash code will determine the index or position in the array where the corresponding value will be stored or be retrieved.
+
+* Map - DS of collection of key-value pairs. 
+* Hash map - map where hashing is used.
+
+* Advs of Hash Maps :-
+    - Efficient lookup time as it performs direct access based on the hash code of a key.
+    - Efficient data mgmt and access.
+
+* Basic Steps in Hashing :-
+    1. Key is input to the hash function. (Hf)
+    2. Hash function computes a hash code. (Hc)
+    3. The Hc is mapped to an index w/in the array or Hash table.
+    4. The value associated w/ the key is stored or retrieved at the computed index.
+    
+    * Array or Bucket Structure - hashing uses such a structure to store k-v pairs.
+        Each element of the array is referred to as a Bucket and it can hold multiple k-v pairs.
+
+* Collision Handling :-
+    A collision occurs when two diff keys produce the same Hc or index.
+    Resolution techniques :
+        - Chaining (using LinkLists or other DSs w/in the buckets.)
+        - Open Addressing (probing for an empty slot in the array)
+
+* Basic Operations of a MAP :-
+
+1. Insertion : 
+    Addition of a new k-v pair.
+    If key already exists, its value is updated.
+
+2. Access :
+    Retrieving the value associated w/ a given key.
+    If the key is not found, an error or a special value (like null) ma be returned based on the implementation.
+
+3. Removal :
+    Removes a k-v pair.
+    If key is not present, no action is done.
+
+4. Size :
+    Returns no of k-v pairs.
+
+5. Existence Check :
+    Checks for the existence of a particular key.
+
+6. Iteration :
+    Traversal through all the k-v pairs, sequenctially. 
+    => through Iterator or Looping mechanishm.

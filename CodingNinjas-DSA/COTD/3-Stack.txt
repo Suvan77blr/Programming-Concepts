@@ -1,0 +1,19 @@
+
+// 131124
+
+Stacks
+
+* LIFO.
+
+* Operations : Push, Pop, Peek, Size, isEmpty.
+
+* Advs : - easy implementation
+    - efficient memory usage.
+    - helpful in recursive logics.
+    
+* Disadvs : - limited access (only to top)
+    - No random access.
+    - No efficient search or sort.
+    - Limited size.
+
+* implementation : Arrays, Linked List, STL Stack container (all ops O(1))

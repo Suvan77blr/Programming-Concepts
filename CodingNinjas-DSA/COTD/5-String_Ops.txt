@@ -1,0 +1,33 @@
+
+// 191124
+// String Operations and Functions.
+
+* Concatenation : '+' operator.
+
+* Length : str.length() -> int
+
+* Substring : str.substr(startIndex, length) -> string
+
+* Comparision : str1 == str2 -> bool
+
+* Searching : str.find(srchString) -> int ( returns the index where the srchString is found. )
+* Search for the last occurance of a substring : str.rfind(srchString) -> int ("")
+
+* Replacing : str.replace(startIndex, length, rplcString) -> string
+    => the substring starting from 'startIndex' with length of 'length' is replaced by the rplcString.
+
+* Conversion :
+    - To int : stoi(str) -> int (all the characters should be numerical. )
+    - To float : stof(str) -> float
+
+* Case Conversion : By using the std::transform function (in algorithm file).
+     => transform(startIter, endIter, startIter_SecInput,resultStartIter, func); > For a unary operation.
+     => transform(startIter, endIter, resultStartIter, func); > For a binary operation.
+Thus, here : transform( str.begin(), str.end(), str.begin(), ::tolower)
+
+* Sorting : std::sort(str.begin(), str.end());
+
+* Comparision of two strings : 
+    compare(str1, str2) -> string (0 : strings are equal, 
+                                    <0 : 1st string is lexographically less than the 2nd string, 
+                                    >0 : 1st string is lexographically greater than the 2nd string.)

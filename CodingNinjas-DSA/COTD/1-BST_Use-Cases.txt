@@ -1,0 +1,11 @@
+
+// 111124
+
+Common Use Cases of BSTs :-
+
+Dictionaries : quick lookup, insertion and deletion operations.
+Range Queries : such as finding elements w/in a specific range.
+Database Indexing : helps to speed up search operations by carrying lookups based on a specific key.
+Implementing other DSs : like AVL trees, Red-Black trees and B-trees.
+Binary Search : for efficient searches in a sorted array or list.
+
